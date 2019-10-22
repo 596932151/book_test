@@ -218,7 +218,7 @@ class Book(object):
         #查询数据库数据
         self.__searchData()
 
-#控制删除还是抓取数据 0:删除，否则抓取
+#控制删除还是抓取数据 True:删除，否则抓取
 book = Book(2, 'localhost', 'root', '12345678')
 # book.run(True)
 book.run(False)
